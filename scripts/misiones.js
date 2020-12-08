@@ -1,5 +1,3 @@
-"use strict"
-
 var misiones = document.querySelector("#misiones");
 
 var mision = ["uno", "dos", "tres", "cuatro"];
