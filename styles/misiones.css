@@ -1,11 +1,13 @@
 #misMisiones{
+    
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
 #misiones{
-    width: 90%;
+    margin-left: 20px;
+    width: 100%;
     display: flex;
     /* border: 1px solid red; */
     justify-content: center;
@@ -42,7 +44,7 @@
 
 @media only screen and (max-width: 750px) {
     #misiones{
-        margin-left: 50px;
+        margin-left: 10px;
         padding: 30px;
         width: 100%;
         display: block;
@@ -57,7 +59,7 @@
 
 @media only screen and (max-width: 500px) {
     #misiones{
-        margin-left: 0px;
+        margin-left: 10px;
         width: 100%;
         display: block;
         /* border: 1px solid red; */
@@ -67,6 +69,6 @@
     .mision{
         margin-bottom: 30px;
         padding: 30px;
-        width: 80%;
+        width: 100%;
     }
   }
