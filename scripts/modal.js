@@ -3,7 +3,7 @@ var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 
-var mision = ["mundial", "sistema solar", "personal", "local"];
+var mision = ["uno", "dos", "tres", "cuatro"];
 
 mision.forEach(element => {
     var btn = document.getElementById(element);
