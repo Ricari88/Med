@@ -1,13 +1,28 @@
+var misiones = document.querySelector("#misiones");
+
+// var mision = ["uno", "dos", "tres", "cuatro"];
+
+// mision.forEach(element => {
+//     misiones.innerHTML += `<button class='mision' id='${element}'>${element.toUpperCase()}</button>`
+// });
+//creatins¡g the missions
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 
+
+
 var mision = ["uno", "dos", "tres", "cuatro"];
 
 mision.forEach(element => {
-    var btn = document.getElementById(element);
+    misiones.innerHTML += `<button class='mision' id='${element}'>${element.toUpperCase()}</button>`
 
+    var btn = document.getElementById(`${element}`);
+
+    console.log(btn)
     console.log(element)
 
     btn.onclick = function() {
