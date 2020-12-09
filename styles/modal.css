@@ -62,6 +62,10 @@
       overflow-y: scroll;
   }
 
+    #misionInfo{
+      width: 80%;
+  }
+
 
 
   #enviar{
